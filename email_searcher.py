@@ -29,7 +29,7 @@ with open(file_name) as fh:
     bigcount = None
 
     # it assign the first email (key = email) to the var bigemail and
-    # assign the first value tothe var bigcount then it keeps searching for 
+    # assign the first value to the var bigcount then it keeps searching for 
     # greater value to assign etc
     for key, value in counts.items():
         if bigemail == None or value > bigcount:
